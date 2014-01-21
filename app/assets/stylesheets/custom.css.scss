@@ -1,0 +1,55 @@
+@import "bootstrap";
+
+ $rise_black: #040406;
+ $rise_white: #ffffff;
+ $rise_red: #8c1b24;
+ $rise_gold: #d89d29;
+ $rise_syncopate: 'Syncopate', sans-serif;
+ $rise_prosto: 'Prosto One', sans-serif;
+
+header {
+}
+
+body {
+	color: $rise_white;
+	letter-spacing: 2px;
+	font-family: $rise_prosto;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: left;
+
+	background-image: url(image_path('background.jpg'));
+	background-size: cover; 
+	background-color: $rise_black;
+}
+
+h1 {
+	letter-spacing: 1px;
+	color: $rise_white;
+	font-family: $rise_syncopate;
+	font-weight: 700;
+	font-size: 42px;
+	text-align: left;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+p {
+	letter-spacing: 1px;
+	color: $rise_white;
+	font-family: $rise_prosto;
+	font-weight: 400;
+	font-size: 12px;
+	text-align: left;
+}
+
+.contact {
+	background-color: $rise_black; 
+	opacity: .8;
+	padding: 30px 30px 100px 70px;
+
+
+	
+}
